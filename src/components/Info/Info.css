@@ -1,0 +1,40 @@
+.Card {
+	border-radius: 5px;
+	display: flex;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.Symbol {
+	/* vertical-align:top;
+	display: inline-block;*/
+	flex: 0 0 1.5%;
+}
+
+.Content {
+	flex: 1;
+}
+
+.Title {
+	font-weight: bold;
+}
+
+.Info {
+	background-color: #DEEBFF;
+}
+
+.Note {
+	background-color: #EAE6FF;
+}
+
+.Success {
+	background-color: #E3FCEF;
+}
+
+.Warning {
+	background-color: #FFFAE6;
+}
+
+.Error {
+	background-color: #FFEBE6;
+}
